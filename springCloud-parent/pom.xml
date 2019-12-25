@@ -64,5 +64,6 @@
 	</dependencyManagement>
 	<modules>
 		<module>springCloud-api</module>
+		<module>springCloud-provider-dept</module>
 	</modules>
 </project>
