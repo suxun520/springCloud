@@ -62,7 +62,7 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
-  <modules>
-    <module>springCloud-api</module>
-  </modules>
+	<modules>
+		<module>springCloud-api</module>
+	</modules>
 </project>
