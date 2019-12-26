@@ -65,5 +65,7 @@
 	<modules>
 		<module>springCloud-api</module>
 		<module>springCloud-provider-dept</module>
+		<module>springCloud-consumer-dept</module>
+		<module>springCloud-eureka-7001</module>
 	</modules>
 </project>
