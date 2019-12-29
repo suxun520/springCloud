@@ -16,6 +16,14 @@
 	<dependencies>
 
 
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-test</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+
 		<!-- 将微服务provider侧注册进eureka  -->
 		<dependency>
 			<groupId>org.springframework.cloud</groupId>
