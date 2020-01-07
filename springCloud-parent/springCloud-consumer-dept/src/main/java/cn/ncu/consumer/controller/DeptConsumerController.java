@@ -15,7 +15,8 @@ public class DeptConsumerController {
    
 	
 	
-	private  static  final   String PROVIDER_URL_PREFIX="http://localhost:8001/";
+	//private  static  final   String PROVIDER_URL_PREFIX="http://localhost:8001/";
+	private  static  final   String PROVIDER_URL_PREFIX="http://SPRINGCLOUD-DEPT/";
 	
 	@Autowired
 	private   RestTemplate  restTemplate;
