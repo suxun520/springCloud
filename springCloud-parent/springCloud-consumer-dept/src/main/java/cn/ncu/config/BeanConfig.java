@@ -15,5 +15,13 @@ public class BeanConfig {
 	 public  RestTemplate   restTemplate() {
 		 return new   RestTemplate();
 	 }
+	 
+	 
+	 
+	/* @Bean
+	 //负载均衡策略
+	 public  IRule   iRule() {
+		 return  new  RandomRule();    //随机
+	 }*/
 	
 }
