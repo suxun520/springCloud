@@ -26,6 +26,8 @@ public class SelfLoadBanlanceRule  extends AbstractLoadBalancerRule {
             if (Thread.interrupted()) {
                 return null;
             }
+           
+            //找到所有可用的机器
             List<Server> upList = lb.getReachableServers();
             List<Server> allList = lb.getAllServers();
 

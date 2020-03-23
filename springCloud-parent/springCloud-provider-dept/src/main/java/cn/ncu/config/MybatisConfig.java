@@ -6,6 +6,13 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 public class MybatisConfig {
 
+	
+
+	
+	
+	
+	
+	
 	// 主配置文件 和javaConfig不能共存！！！！！！！
 //	@Bean
 	public ConfigurationCustomizer configurationCustomizer() {
@@ -18,7 +25,9 @@ public class MybatisConfig {
 
 				// 缓存
 				configuration.setCacheEnabled(true);
+			
 			}
+			
 		};
 	}
 }
